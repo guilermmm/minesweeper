@@ -8,6 +8,7 @@ import {
 
 export const getConfigByDifficulty = (difficulty: Difficulty) => {
   return gridConfigs[difficulty]
+  //
 }
 
 export const createMatrix = (width: number, height: number): null[][] => {
